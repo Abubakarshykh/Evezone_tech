@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 const heading = "About Us";
 
 const paragraphText = [
-  "Our commitment is to elevate your digital journey, unlocking limitless possibilities.", 
-"In shaping a future where technology transforms visions into reality."
+  "Our commitment is to elevate your digital journey, unlocking limitless possibilities.",
+  "In shaping a future where technology transforms visions into reality."
 ];
 
 export default function AboutHead() {
@@ -10,10 +12,12 @@ export default function AboutHead() {
     <section className="relative w-full h-[550px] flex items-center justify-center">
       {/* Background Image with Dull Brightness */}
       <div className="absolute inset-0">
-        <img
+        <Image
           src="/Aboutus/head_new.png"
           alt="Background"
-          className="w-full h-full object-cover brightness-60"
+          layout="fill"
+          objectFit="cover"
+          className="brightness-60"
         />
       </div>
 

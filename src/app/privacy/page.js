@@ -38,7 +38,7 @@ export default function Privacy() {
               like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
             <p className="mt-4 text-gray-300 leading-relaxed italic">
-              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+              &quot;Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...&quot;
             </p>
           </article>
 
@@ -82,14 +82,14 @@ export default function Privacy() {
             </ul>
 
             <p className="mt-4 pl-4 text-gray-300 leading-relaxed italic">
-              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+              &quot;Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...&quot;
             </p>
           </article>
 
           {/* Final Statement */}
           <footer className="mt-10 text-center">
             <p className="text-gray-400 italic">
-              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+              &quot;Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...&quot;
             </p>
           </footer>
         </div>
